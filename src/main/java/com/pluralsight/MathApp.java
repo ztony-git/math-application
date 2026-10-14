@@ -17,5 +17,9 @@ public class MathApp {
         double num = 5.0;
         double sqrt = Math.sqrt(num);
         System.out.println("The square root of " + num + " is " + sqrt);
+
+        int x1 = 5, x2 = 85, y1 = 10, y2 = 50;
+        double distance = Math.hypot(x2 - x1, y2 - y1);
+        System.out.println("The distance between (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is " + distance);
     }
 }
