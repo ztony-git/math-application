@@ -6,5 +6,10 @@ public class MathApp {
         int garySalary = 62_000;
         int highestSalary = Math.max(bobSalary, garySalary);
         System.out.println("The highest salary is: " + highestSalary);
+
+        double carPrice = 1299.99;
+        double truckPrice = 1899.99;
+        double cheapestVehicle = Math.min(carPrice, truckPrice);
+        System.out.println("The cheapest vehicle is: " + cheapestVehicle);
     }
 }
