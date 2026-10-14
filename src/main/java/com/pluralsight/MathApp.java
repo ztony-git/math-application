@@ -11,5 +11,9 @@ public class MathApp {
         double truckPrice = 1899.99;
         double cheapestVehicle = Math.min(carPrice, truckPrice);
         System.out.println("The cheapest vehicle is: " + cheapestVehicle);
+
+        double circleRadius = 7.5;
+        double circleArea = Math.PI * Math.pow(circleRadius, 2);
+        System.out.println("The circle area is: " + circleArea);
     }
 }
