@@ -28,5 +28,12 @@ public class MathApp {
 
         double rand = Math.random();
         System.out.println("A random value of " + rand);
+
+        int days = 24;
+        int hours = days * 24;
+        int minutes = hours * 60;
+        int seconds = minutes * 60;
+        int ms = seconds * 1000;
+        System.out.println(days + "d/" + hours + "h/" + minutes + "m/" + seconds + "s/" + ms + "ms");
     }
 }
