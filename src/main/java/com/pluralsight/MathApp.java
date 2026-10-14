@@ -15,5 +15,9 @@ public class MathApp {
         double circleRadius = 7.5;
         double circleArea = Math.PI * Math.pow(circleRadius, 2);
         System.out.println("The circle area is: " + circleArea);
+
+        double num = 5.0;
+        double sqrt = Math.sqrt(num);
+        System.out.println("The square root of " + num + " is " + sqrt);
     }
 }
