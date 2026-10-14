@@ -21,5 +21,9 @@ public class MathApp {
         int x1 = 5, x2 = 85, y1 = 10, y2 = 50;
         double distance = Math.hypot(x2 - x1, y2 - y1);
         System.out.println("The distance between (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is " + distance);
+
+        double negative = -3.8;
+        double abs = Math.abs(negative);
+        System.out.println("The absolute value of " + negative + " is " + abs);
     }
 }
