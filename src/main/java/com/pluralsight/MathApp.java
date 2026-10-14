@@ -25,5 +25,8 @@ public class MathApp {
         double negative = -3.8;
         double abs = Math.abs(negative);
         System.out.println("The absolute value of " + negative + " is " + abs);
+
+        double rand = Math.random();
+        System.out.println("A random value of " + rand);
     }
 }
